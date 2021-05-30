@@ -1,0 +1,36 @@
+body{
+    background-image: url("background.jpg");
+    font-family: 'Dancing Script', cursive;
+}
+.head{
+    padding: 5px;
+    font-size: 30px;
+    width: 25%;
+}
+
+.btn-success{
+    font-size: 20px;
+}
+
+.btn-success:hover{
+ background-color: chocolate;
+}
+
+ canvas{
+     animation-name:shadows;
+     animation-iteration-count: infinite;
+     animation-duration: 4s;
+     margin-top: 100px;
+ }
+ @keyframes shadows{
+     from{
+         box-shadow:1px 1px 40px cyan;
+     }
+     to{
+         box-shadow: 1px 1px 40px crimson;
+     }
+ }
+span{
+    font-size: 18px;
+}
+
